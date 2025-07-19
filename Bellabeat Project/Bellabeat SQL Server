@@ -1,1 +1,124 @@
+--1 average steps per User
+SELECT 
+	Id,
+	ROUND(AVG(TotalSteps), 2) AS avg_steps
+FROM dbo.dailyActivity
+GROUP BY Id
+ORDER BY 2 DESC;
+
+--2 average steps per Day of Week
+WITH avg_steps_day AS
+(SELECT
+	Id,
+	ActivityDate,
+	TotalSteps,
+	DATENAME(WEEKDAY, ActivityDate) AS day_of_week
+FROM dbo.dailyActivity
+)
+
+SELECT 
+	day_of_week,
+	ROUND(AVG(TotalSteps), 2) AS steps
+
+FROM avg_steps_day
+GROUP BY day_of_week
+ORDER BY steps DESC;
+
+--3 activity levels by Day of Week
+SELECT
+	ROUND(AVG(SedentaryMinutes), 2) AS sedentary_minutes,
+	ROUND(AVG(LightlyActiveMinutes), 2) AS lightly_active_minutes,
+	ROUND(AVG(FairlyActiveMinutes), 2) AS fairly_active_minutes,
+	ROUND(AVG(VeryActiveMinutes), 2) AS very_active_minutes,
+	DATENAME(WEEKDAY, ActivityDate) AS day_of_week
+FROM dbo.dailyActivity
+
+GROUP BY DATENAME(WEEKDAY, ActivityDate)
+ORDER BY 5;
+
+--4 activity levels 
+WITH activity_minutes AS
+(SELECT
+	ROUND(AVG(SedentaryMinutes), 2) AS sedentary_minutes,
+	ROUND(AVG(LightlyActiveMinutes), 2) AS lightly_active_minutes,
+	ROUND(AVG(FairlyActiveMinutes), 2) AS fairly_active_minutes,
+	ROUND(AVG(VeryActiveMinutes), 2) AS very_active_minutes
+FROM dbo.dailyActivity
+)
+
+SELECT *
+FROM activity_minutes;
+
+--5 avg sleep hrs per day of the week
+WITH sleepHour AS(
+SELECT
+	Id,
+	DATENAME(WEEKDAY, (sleep_date)) AS day_of_week,
+	ROUND(CAST(total_sleep_minutes AS FLOAT)/60.0, 2) AS sleep_hours
+FROM dbo.sleepDay
+)
+
+SELECT
+	day_of_week,
+ROUND(AVG(sleep_hours) ,1) as avg_hours_of_sleep
+FROM sleepHour
+GROUP BY day_of_week
+ORDER BY avg_hours_of_sleep DESC;
+
+--create a new table 'sleepDay' from minuteSleep
+SELECT
+    Id,
+    CAST([date] AS DATE) AS sleep_date,
+    SUM(value) AS total_sleep_minutes
+FROM dbo.minuteSleep
+GROUP BY 
+    Id,
+    CAST([date] AS DATE)
+ORDER BY 
+    Id,
+    sleep_date;
+
+--6 average sleep hour per user
+SELECT
+	Id,
+	ROUND(AVG(CAST(total_sleep_minutes AS FLOAT)/60.0), 2) AS avg_sleep_hour
+FROM dbo.sleepDay
+GROUP BY Id
+ORDER BY avg_sleep_hour DESC;
+
+--7 sleep vs activities
+SELECT
+	d.Id,
+	ROUND(AVG(VeryActiveMinutes), 2) AS avg_active_minutes,
+	ROUND(AVG(FairlyActiveMinutes), 2) AS avg_fair_minutes,
+	ROUND(AVG(LightlyActiveMinutes), 2) AS avg_light_minutes,
+	ROUND(AVG(SedentaryMinutes), 2) AS avg_sedentary_minutes,
+	AVG(CAST(s.total_sleep_minutes AS smallint)) AS avg_sleep_minutes
+FROM dbo.dailyActivity AS d
+INNER JOIN dbo.sleepDay AS s
+ON d.Id = s.Id
+GROUP BY d.Id
+ORDER BY avg_sleep_minutes DESC;
+
+--8 sleep vs steps
+SELECT
+	d.Id,
+	ROUND(AVG(TotalSteps), 2) AS avg_steps,
+	AVG(CAST(s.total_sleep_minutes AS smallint)) AS avg_sleep_minutes
+FROM dbo.dailyActivity AS d
+INNER JOIN dbo.sleepDay AS s
+ON d.Id = s.Id
+GROUP BY d.Id
+ORDER BY avg_sleep_minutes DESC;
+
+--9 sleep vs calories
+SELECT
+	d.Id,
+	ROUND(AVG(Calories), 2) AS avg_calories,
+	AVG(CAST(s.total_sleep_minutes AS smallint)) AS avg_sleep_minutes
+FROM dbo.dailyActivity AS d
+INNER JOIN dbo.sleepDay AS s
+ON d.Id = s.Id
+GROUP BY d.Id
+ORDER BY avg_sleep_minutes DESC;
 
