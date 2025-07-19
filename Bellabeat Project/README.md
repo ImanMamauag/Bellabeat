@@ -17,9 +17,15 @@
 Aiming to improve user engagement, product utility and market competitiveness.</li></p>
 
 <h2 id="insights">Insights</h2>
+<h3>Sleep is most affected by sedentary behavior, not activity levels.</h3>
+<ul>This visualization compares how different types of physical activity (and inactivity) relate to average sleep duration.</ul>
+<img width="900" height="400" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216" />
+<li> Sedentary Time Has the Strongest Relationship with Sleep - and It's Negative.</li>
+<li> Light, Fair, and Active Physical Activities Show No Strong Correlation.</li>
 
-<img width="900" height="850" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216" />
-
+<h3>Sleep duration appears to be more negatively impacted by how sedentary you are, rather than improved by how active you are.</h3>
+<ul>Cutting down sitting time may help more with sleep than just trying to exercise more.</ul>
+<ul></ul>
 <img width="900" height="850" alt="AVG steps user" src="https://github.com/user-attachments/assets/af395441-44d6-4edf-b868-9163dfd00de1" />
 
 
