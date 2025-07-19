@@ -1,1 +1,25 @@
+--1 average steps per User
+SELECT 
+	Id,
+	ROUND(AVG(TotalSteps), 2) AS avg_steps
+FROM dbo.dailyActivity
+GROUP BY Id
+ORDER BY 2 DESC;
 
+--2 average steps per Day of Week
+WITH avg_steps_day AS
+(SELECT
+	Id,
+	ActivityDate,
+	TotalSteps,
+	DATENAME(WEEKDAY, ActivityDate) AS day_of_week
+FROM dbo.dailyActivity
+)
+
+SELECT 
+	day_of_week,
+	ROUND(AVG(TotalSteps), 2) AS steps
+
+FROM avg_steps_day
+GROUP BY day_of_week
+ORDER BY steps DESC;
