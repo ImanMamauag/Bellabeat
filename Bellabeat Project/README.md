@@ -10,6 +10,7 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
   <li><a href="#objectives">Objectives</a></li>
   <li><a href="#insights">Key Consumer Insights</a></li>
   <li><a href="#recommendations">Strategic Recommendations</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
 <h2 id="objectives">Objectives</h2>
@@ -71,6 +72,6 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
 
 <br>
 
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p align = 'justify'> Today’s users are not elite athletes—they are regular individuals seeking small, sustainable improvements in health. Our product should empower these users to make realistic daily progress, positioning us as a leader in holistic, health-driven smart technology.</p>
