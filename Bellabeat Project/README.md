@@ -4,7 +4,7 @@
 The objective was to identify consumer trends and behaviors in the smart device market and generate actionable insights to strengthen the positioning of Bellabeat’s health-focused smart products—enhancing user engagement, increasing product value, and boosting market competitiveness.
 Key tools used in the project included Excel for data cleaning, SQL (SQL Server) for data exploration, Tableau for data visualization, and PowerPoint for presenting findings.</p>
 <h3> Interactive Tableau Dashboard - Click  <a href = "https://public.tableau.com/app/profile/immanuel.mamauag/viz/DailyActivity_17528945596700/FitnessDeviceTrends">HERE</a></h3>
-
+<br>
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="#objectives">Objectives</a></li>
@@ -12,12 +12,12 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
   <li><a href="#recommendations">Strategic Recommendations</a></li>
   <li><a href="#conclusion">Conclusion</a></li>
 </ul>
-
+<br>
 <h2 id="objectives">Objectives</h2>
 <p align = 'justify'>
 <li>To understand broader consumer trends and behaviors in the smart device market.</li> 
 <li>To extract actionable insights that can be directly applied to enhance, innovate, or strategically position one of our health focused smart products. Aiming to improve user engagement, product utility and market competitiveness.</li></p>
-
+<br>
 <h2 id="insights">Key Consumer Insights</h2>
 <h3><p>1. High Sedentary Behavior: Majority of users spend the day inactive; "very active" minutes are consistently low.</h3>
 
