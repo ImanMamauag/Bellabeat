@@ -21,7 +21,7 @@ Aiming to improve user engagement, product utility and market competitiveness.</
 <h2 id="insights">Key Consumer Insights</h2>
 <h3>1. High Sedentary Behavior: Majority of users spend the day inactive; "very active" minutes are consistently low.</h3>
 
-<h4>Sleep is most affected by sedentary behavior, not activity levels.</h4>
+<li>Sleep is most affected by sedentary behavior, not activity levels.</li>
 
 <ul>This visualization compares how different types of physical activity (and inactivity) relate to average sleep duration.</ul>
 <img width="900" height="400" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216" />
@@ -44,13 +44,13 @@ Aiming to improve user engagement, product utility and market competitiveness.</
 
 <h2 id="recommendations">Strategic Recommendations</h2>
 
-<h3>1. Product Engagement & Feature Innovation
+<h3>1. Product Engagement & Feature Innovation</h3>
 
-Inactivity Alerts: Smart prompts to reduce sedentary time (e.g., stretch, short walks).
+<b>Inactivity Alerts:</b> Smart prompts to reduce sedentary time (e.g., stretch, short walks).
 
-Tiered Step Goals: Daily micro-goals for gradual progress toward 10,000 steps.
+<b>Tiered Step Goals:</b> Daily micro-goals for gradual progress toward 10,000 steps.
 
-Sleep-Activity Feedback Loops: Personalized insights showing how movement affects rest.
+<b>Sleep-Activity Feedback Loops:</b> Personalized insights showing how movement affects rest.
 
 
 <h3>2. User Motivation & Retention
