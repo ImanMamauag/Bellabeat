@@ -2,7 +2,7 @@
 
 <p align = 'justify'>Bellabeat provides a suite of wellness products designed for women, tracking activity, sleep, and stress, all integrated with the Bellabeat app. This project analyzed data from 30 eligible Fitbit users (crowdsourced in 2016) to support strategic business decisions.
 The objective was to identify consumer trends and behaviors in the smart device market and generate actionable insights to strengthen the positioning of Bellabeat’s health-focused smart products—enhancing user engagement, increasing product value, and boosting market competitiveness.
-Key tools used in the project included Excel for data cleaning, SQL(SQL Server) for data exploration, Tableau for data visualization, and PowerPoint for presenting findings.</p>
+Key tools used in the project included Excel for data cleaning, SQL (SQL Server) for data exploration, Tableau for data visualization, and PowerPoint for presenting findings.</p>
 <h3> Interactive Tableau Dashboard - Click  <a href = "https://public.tableau.com/app/profile/immanuel.mamauag/viz/DailyActivity_17528945596700/FitnessDeviceTrends">HERE</a></h3>
 
 <h2>Table of Contents</h2>
@@ -41,6 +41,8 @@ Key tools used in the project included Excel for data cleaning, SQL(SQL Server) 
 
 <h3>5. Calories Burned = Steps Taken: Step count is the most consistent predictor of energy expenditure.</h3>
 
+<br>
+
 <h2 id="recommendations">Strategic Recommendations</h2>
 
 <h3><p>1. Product Engagement & Feature Innovation</h3>
@@ -61,10 +63,13 @@ Key tools used in the project included Excel for data cleaning, SQL(SQL Server) 
 
 <h3>3. Marketing & Positioning Strategy</h3>
 
-Position the device as a <b>“Daily Wellness Companion”</b> focused on improving sleep, movement, and recovery—not just fitness.
+Position the device as a <i>“Daily Wellness Companion”</i> focused on improving sleep, movement, and recovery—not just fitness.
 
-Use data-driven messaging such as <i>“Stand more. Sleep better.”</i> or “Wellness in every step.”
+Use data-driven messaging such as <i>“Stand more. Sleep better.”</i> or <i>“Wellness in every step.”</i>
 </p>
+
+<br>
+
 <h2>Conclusion</h2>
 
-<p> Today’s users are not elite athletes—they are regular individuals seeking small, sustainable improvements in health. Our product should empower these users to make realistic daily progress, positioning us as a leader in holistic, health-driven smart technology.</p>
+<p align = 'justify'> Today’s users are not elite athletes—they are regular individuals seeking small, sustainable improvements in health. Our product should empower these users to make realistic daily progress, positioning us as a leader in holistic, health-driven smart technology.</p>
