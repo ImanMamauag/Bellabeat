@@ -8,7 +8,7 @@ Key tools used in the project included Excel for data cleaning, SQL(SQL Server) 
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="#objectives">Objectives</a></li>
-  <li><a href="#insights">Insights</a></li>
+  <li><a href="#insights">Key Consumer Insights</a></li>
   <li><a href="#recommendations">Recommendations</a></li>
 </ul>
 
@@ -18,7 +18,7 @@ Key tools used in the project included Excel for data cleaning, SQL(SQL Server) 
 <li>To extract actionable insights that can be directly applied to enhance, innovate, or strategically position one of our health focused smart products. 
 Aiming to improve user engagement, product utility and market competitiveness.</li></p>
 
-<h2 id="insights">Insights</h2>
+<h2 id="insights">Key Consumer Insights</h2>
 <h3>Sleep is most affected by sedentary behavior, not activity levels.</h3>
 <ul>This visualization compares how different types of physical activity (and inactivity) relate to average sleep duration.</ul>
 <img width="900" height="400" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216" />
