@@ -65,7 +65,7 @@ FROM sleepHour
 GROUP BY day_of_week
 ORDER BY avg_hours_of_sleep DESC;
 
---create a new table 'sleepDay' from minuteSleep
+--create a new table 'sleepDay' from minuteSleep table
 SELECT
     Id,
     CAST([date] AS DATE) AS sleep_date,
