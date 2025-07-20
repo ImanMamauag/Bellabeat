@@ -36,6 +36,8 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
 
 <h3>2. Suboptimal Step Counts: Most users fall short of the WHO’s recommended 10,000 daily steps.</h3>
 <img width="900" height="850" alt="AVG steps user" src="https://github.com/user-attachments/assets/af395441-44d6-4edf-b868-9163dfd00de1" />
+<li><b>Most users are not reaching the daily recommended step count</b>, indicating room for improvement in daily movement</li>
+<li>This align with earlier data showing high sedentary behavior.</li>
 <h3>3. Sleep vs. Sedentary Correlation: Poor sleep is more strongly linked to high sedentary time than low activity levels.</h3>
 
 <h3>4. Weekday Trends: Activity levels are generally stable, with slight midweek dips (notably on Tuesday).</h3>
