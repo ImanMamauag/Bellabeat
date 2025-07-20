@@ -14,15 +14,14 @@ Key tools used in the project included Excel for data cleaning, SQL(SQL Server) 
 
 <h2 id="objectives">Objectives</h2>
 <p align = 'justify'>
-<li>To understand broader consumer trends and behaviors in the smart device market.</li> <br> 
-<li>To extract actionable insights that can be directly applied to enhance, innovate, or strategically position one of our health focused smart products. 
-Aiming to improve user engagement, product utility and market competitiveness.</li></p>
+<li>To understand broader consumer trends and behaviors in the smart device market.</li> 
+<li>To extract actionable insights that can be directly applied to enhance, innovate, or strategically position one of our health focused smart products. Aiming to improve user engagement, product utility and market competitiveness.</li></p>
 
 <h2 id="insights">Key Consumer Insights</h2>
-<h3>1. High Sedentary Behavior: Majority of users spend the day inactive; "very active" minutes are consistently low.</h3>
+<h3><p>1. High Sedentary Behavior: Majority of users spend the day inactive; "very active" minutes are consistently low.</h3>
 
 <li>Sleep is most affected by sedentary behavior, not activity levels.</li>
-
+<br>
 <ul>This visualization compares how different types of physical activity (and inactivity) relate to average sleep duration.</ul>
 <img width="900" height="400" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216" />
 
@@ -44,7 +43,7 @@ Aiming to improve user engagement, product utility and market competitiveness.</
 
 <h2 id="recommendations">Strategic Recommendations</h2>
 
-<h3>1. Product Engagement & Feature Innovation</h3>
+<h3><p>1. Product Engagement & Feature Innovation</h3>
 
 <b>Inactivity Alerts:</b> Smart prompts to reduce sedentary time (e.g., stretch, short walks).
 
@@ -53,19 +52,19 @@ Aiming to improve user engagement, product utility and market competitiveness.</
 <b>Sleep-Activity Feedback Loops:</b> Personalized insights showing how movement affects rest.
 
 
-<h3>2. User Motivation & Retention
+<h3>2. User Motivation & Retention</h3>
 
-Gamified Weekly Challenges: Encourage consistency and recovery from low-activity days.
+<b>Gamified Weekly Challenges: Encourage consistency and recovery from low-activity days.
 
-Social & Community Features: Peer comparisons, step leaderboards, or team challenges.
+<b>Social & Community Features: Peer comparisons, step leaderboards, or team challenges.
 
 
-<h3>3. Marketing & Positioning Strategy
+<h3>3. Marketing & Positioning Strategy</h3>
 
-Position the device as a “Daily Wellness Companion” focused on improving sleep, movement, and recovery—not just fitness.
+Position the device as a <b>“Daily Wellness Companion”</b> focused on improving sleep, movement, and recovery—not just fitness.
 
-Use data-driven messaging such as “Stand more. Sleep better.” or “Wellness in every step.”
-
+Use data-driven messaging such as <i>“Stand more. Sleep better.”</i> or “Wellness in every step.”
+</p>
 <h2>Conclusion</h2>
 
 <p> Today’s users are not elite athletes—they are regular individuals seeking small, sustainable improvements in health. Our product should empower these users to make realistic daily progress, positioning us as a leader in holistic, health-driven smart technology.</p>
