@@ -47,25 +47,25 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
 
 <h3><p>1. Product Engagement & Feature Innovation</h3>
 
-<b>Inactivity Alerts:</b> Smart prompts to reduce sedentary time (e.g., stretch, short walks).
+<li><b>Inactivity Alerts:</b> Smart prompts to reduce sedentary time (e.g., stretch, short walks).</li>
 
-<b>Tiered Step Goals:</b> Daily micro-goals for gradual progress toward 10,000 steps.
+<li><b>Tiered Step Goals:</b> Daily micro-goals for gradual progress toward 10,000 steps.</li>
 
-<b>Sleep-Activity Feedback Loops:</b> Personalized insights showing how movement affects rest.
+<li><b>Sleep-Activity Feedback Loops:</b> Personalized insights showing how movement affects rest.</li>
 
 
 <h3>2. User Motivation & Retention</h3>
 
-<b>Gamified Weekly Challenges: Encourage consistency and recovery from low-activity days.
+<li><b>Gamified Weekly Challenges:</b> Encourage consistency and recovery from low-activity days.</li>
 
-<b>Social & Community Features: Peer comparisons, step leaderboards, or team challenges.
+<li><b>Social & Community Features:</b> Peer comparisons, step leaderboards, or team challenges.</li>
 
 
 <h3>3. Marketing & Positioning Strategy</h3>
 
-Position the device as a <i>“Daily Wellness Companion”</i> focused on improving sleep, movement, and recovery—not just fitness.
+<li>Position the device as a <i>“Daily Wellness Companion”</i> focused on improving sleep, movement, and recovery—not just fitness.</li>
 
-Use data-driven messaging such as <i>“Stand more. Sleep better.”</i> or <i>“Wellness in every step.”</i>
+<li>Use data-driven messaging such as <i>“Stand more. Sleep better.”</i> or <i>“Wellness in every step.”</i></li>
 </p>
 
 <br>
