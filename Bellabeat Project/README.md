@@ -24,6 +24,7 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
 <br>
 <ul>This visualization compares how different types of physical activity (and inactivity) relate to average sleep duration.</ul>
 <img width="900" height="400" alt="sleep vs activities" src="https://github.com/user-attachments/assets/a31ba838-c51c-4f8b-be7d-2f618c0dd216">
+
 <br>
 <li> Sedentary Time Has the Strongest Relationship with Sleep - and It's Negative.</li>
 <li> Light, Fair, and Active Physical Activities Show No Strong Correlation.</li>
