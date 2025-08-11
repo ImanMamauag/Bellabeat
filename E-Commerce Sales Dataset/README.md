@@ -1,5 +1,1 @@
-##problem
-
-##approach
-
-##results
+problem> approach> results
