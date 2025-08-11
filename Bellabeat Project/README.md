@@ -1,4 +1,4 @@
-<h1>Google Data Analytics Capstone Project – Bellabeat </h1>
+<h1>Bellabeat </h1>
 
 <p align = 'justify'>Bellabeat provides a suite of wellness products designed for women, tracking activity, sleep, and stress, all integrated with the Bellabeat app. This project analyzed data from 30 eligible Fitbit users (crowdsourced in 2016) to support strategic business decisions.
 The objective was to identify consumer trends and behaviors in the smart device market and generate actionable insights to strengthen the positioning of Bellabeat’s health-focused smart products—enhancing user engagement, increasing product value, and boosting market competitiveness.
