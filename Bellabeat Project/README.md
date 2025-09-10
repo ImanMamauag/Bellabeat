@@ -45,7 +45,7 @@ Key tools used in the project included Excel for data cleaning, SQL (SQL Server)
 
 <br>
 
-<h2 id="recommendations">Strategic Recommendations</h2>
+<h2 id="recommendations">Recommendations</h2>
 
 <h3><p>1. Product Engagement & Feature Innovation</h3>
 
